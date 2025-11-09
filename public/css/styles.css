@@ -1,0 +1,15 @@
+/* public/css/styles.css */
+:root {
+  --primary: #0b5ed7; /* corporate blue */
+  --accent: #f5a524;
+  --bg: #f8f9fa;
+}
+
+body { background: var(--bg); font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.navbar-brand { color: var(--primary); font-weight: 700; }
+.card { border-radius: 12px; }
+.btn-primary { background-color: var(--primary); border-color: var(--primary); }
+.sidebar { background: #ffffff; }
+
+/* small animations */
+.counter { font-size: 1.6rem; }
