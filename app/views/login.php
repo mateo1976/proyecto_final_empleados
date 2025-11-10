@@ -138,16 +138,7 @@ $flash = getFlash();
           </small>
         </div>
         
-        <!-- Credenciales de prueba (solo en desarrollo) -->
-        <?php if (getenv('APP_ENV') !== 'production'): ?>
-        <div class="alert alert-info mt-3 mb-0" role="alert">
-          <small>
-            <strong>Credenciales de prueba:</strong><br>
-            Email: admin@gmail.com<br>
-            Contraseña: admin123
-          </small>
-        </div>
-        <?php endif; ?>
+
         
       </div>
       

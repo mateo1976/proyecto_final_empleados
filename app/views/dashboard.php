@@ -230,7 +230,7 @@ foreach($porSexo as $ps) {
         <div class="card-header bg-white">
           <h5 class="mb-0">
             <i class="bi bi-calendar-event text-warning"></i> 
-            Cumpleaños en <?php echo strftime('%B', mktime(0, 0, 0, $mesActual, 1)); ?>
+            Cumpleaños en <?php $fmt = new IntlDateFormatter('es_ES', IntlDateFormatter::NONE, IntlDateFormatter::NONE, null, null, 'MMMM');echo ucfirst($fmt->format(mktime(0, 0, 0, $mesActual, 1)));?>
           </h5>
         </div>
         <div class="card-body">

@@ -142,6 +142,9 @@ try {
         case 'nomina':
             require __DIR__ . '/../app/views/nomina.php';
             break;
+        case 'aumentos_aplicar':
+            require __DIR__ . '/aumentos_action.php';
+         break;
         
         // ==================== 404 ====================
         default:

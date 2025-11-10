@@ -5,3 +5,6 @@
 /.idea/
 /.vscode/
 seed/*.db
+
+logs/*.log
+!logs/.gitkeep
